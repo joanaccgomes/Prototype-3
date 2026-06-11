@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 2364985945253999759}
   - component: {fileID: 5308367895175544564}
   - component: {fileID: 8761157816665006764}
+  - component: {fileID: 99127390177558422}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -172,3 +173,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2322063, y: 1.851425, z: 1.2709084}
   m_Center: {x: -0.009675026, y: 0.8804508, z: -0.009675503}
+--- !u!114 &99127390177558422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108870184571791022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0bb211b07bc4b4e92120743f319097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoveLeft
